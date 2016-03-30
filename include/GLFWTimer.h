@@ -1,7 +1,7 @@
 #ifndef _GLFWTIMER_
 #define _GLFWTIMER_
 
-#include <GLFW\glfw3.h>
+#include <GLFW/glfw3.h>
 
 class GLFWTimer{
 private:

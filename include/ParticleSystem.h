@@ -3,8 +3,8 @@
 
 #ifndef _GLEW_
 #define _GLEW_
-	#include <GL\glew.h>
-	#include <GLFW\glfw3.h>
+	#include <GL/glew.h>
+	#include <GLFW/glfw3.h>
 #endif
 
 #define WORK_GROUP_SIZE 256
@@ -12,13 +12,13 @@
 
 #include <iostream>
 
-#include <glm\glm.hpp>
-#include <glm\gtc\matrix_transform.hpp>
-#include <glm\gtc\matrix_access.hpp>
-#include <glm\gtc\type_ptr.hpp>
+#include <glm/glm.hpp>
+#include <glm/gtc/matrix_transform.hpp>
+#include <glm/gtc/matrix_access.hpp>
+#include <glm/gtc/type_ptr.hpp>
 
 #include <memory>
-#include <boost\lexical_cast.hpp>
+#include <boost/lexical_cast.hpp>
 
 #include "Classes.h"
 #include "ShaderManager.h"

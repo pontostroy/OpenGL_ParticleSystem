@@ -1,5 +1,5 @@
 
-TARGETS=executable/main.exe
+TARGETS=executable/main
 
 OBJECTS=src/GLFWInput.o \
 src/ParticleManager.o \
@@ -13,8 +13,8 @@ CC=gcc
 AR=ar
 #GDB=-g
 
-CPPFLAGS=-std=c++11 -Iinclude/ -Wall -s
-LFLAGS=-lglfw3 -lglew32 -lopengl32 -lgdi32 -lxerces-c -lstdc++
+CPPFLAGS=-std=c++11 -I./include/ -Wall -s
+LFLAGS=-lm -lglfw -lGLEW -lGL -lgdiplus -lxerces-c -lstdc++
 
 all: src/main.cpp $(OBJECTS)
 	$(CC) $(GDB) $(CPPFLAGS) -o $(TARGETS) $< $(OBJECTS) $(LFLAGS)
@@ -23,5 +23,5 @@ all: src/main.cpp $(OBJECTS)
 	$(CC) $(GDB) $(CPPFLAGS) -c $< -o $@
 	
 clean:
-	rm $(subst /,\,$(OBJECTS))
-	rm $(subst /,\,$(TARGETS))
+	rm $(subst /,/,$(OBJECTS))
+	rm $(subst /,/,$(TARGETS))

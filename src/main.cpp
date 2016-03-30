@@ -1,14 +1,14 @@
 #ifndef _GLEW_
 #define _GLEW_
-	#include <GL\glew.h>
-	#include <GLFW\glfw3.h>
+	#include <GL/glew.h>
+	#include <GLFW/glfw3.h>
 #endif
 
 #include <iostream>
 #include <string>
 #include <stdexcept>
 
-#include <boost\lexical_cast.hpp>
+#include <boost/lexical_cast.hpp>
 
 #include "GLFWWindow.h"
 #include "XMLParser.h"

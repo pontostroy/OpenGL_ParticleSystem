@@ -1,14 +1,14 @@
 #ifndef _XMLPARSER_
 #define _XMLPARSER_
-#include <xercesc\util\PlatformUtils.hpp>
-#include <xercesc\parsers\XercesDOMParser.hpp>
-#include <xercesc\framework\LocalFileFormatTarget.hpp>
-#include <xercesc\util\XMLChar.hpp>
-#include <xercesc\dom\DOM.hpp>
-#include <xercesc\sax\HandlerBase.hpp>
+#include <xercesc/util/PlatformUtils.hpp>
+#include <xercesc/parsers/XercesDOMParser.hpp>
+#include <xercesc/framework/LocalFileFormatTarget.hpp>
+#include <xercesc/util/XMLChar.hpp>
+#include <xercesc/dom/DOM.hpp>
+#include <xercesc/sax/HandlerBase.hpp>
 
-#include <boost\any.hpp>
-#include <boost\lexical_cast.hpp>
+#include <boost/any.hpp>
+#include <boost/lexical_cast.hpp>
 
 #include <map>
 #include <string>

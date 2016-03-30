@@ -3,8 +3,8 @@
 
 #ifndef _GLEW_
 #define _GLEW_
-	#include <GL\glew.h>
-	#include <GLFW\glfw3.h>
+	#include <GL/glew.h>
+	#include <GLFW/glfw3.h>
 #endif
 
 #include <memory>
